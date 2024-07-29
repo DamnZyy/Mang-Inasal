@@ -8,7 +8,7 @@ import News from '@/components/home page/news';
 export default function page() {
   return (
     <div className="select-none">
-        <ImageSlider></ImageSlider>
+        {/* <ImageSlider></ImageSlider> */}
         <Search></Search>
         <FoodSale></FoodSale>
         <Promo></Promo>

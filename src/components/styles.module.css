@@ -1,0 +1,14 @@
+.customized {
+    @apply grid place-content-center pl-5 sm:ml-0 gap-10;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+.links {
+    @apply text-gray-300 transition-colors hover:text-[#fbee37] mb-3;
+}
+.FoodItemContainer {
+    display: grid;
+    gap: 30px 16px;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+}

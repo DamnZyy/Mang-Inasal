@@ -1,0 +1,430 @@
+{
+  "GroupMeals": [
+      {
+        "id": "1001",
+        "image": "/meal1.png",
+        "title": "Chicken Inasal Regular Family Size",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "750",
+        "OriginalPrice": "4600"
+      },
+      {
+        "id": "2038",
+        "image": "/meal2.png",
+        "title": "Paa Large Family Size",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "880",
+        "OriginalPrice": "4700"
+      },
+      {
+        "id": "3047",
+        "image": "/meal3.png",
+        "title": "Pecho Large Family Size",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "950",
+        "OriginalPrice": "4900"
+      },
+      {
+          "id": "4532",
+          "image": "/meal4.png",
+          "title": "Paa Large Buddy Size",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "430",
+          "OriginalPrice": "2500"
+      },
+      {
+          "id": "5621",
+          "image": "/meal5.png",
+          "title": "Pecho Large Buddy Size",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "590",
+          "OriginalPrice": "3200"
+      },
+      {
+          "id": "6723",
+          "image": "/meal6.png",
+          "title": "Chicken Inasal & Pork BBQ Family Fiesta",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "720",
+          "OriginalPrice": "5300"
+      },
+      {
+          "id": "7428",
+          "image": "/meal7.png",
+          "title": "Chicken Inasal & Grilled Liempo Family Fiesta",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "810",
+          "OriginalPrice": "5500"
+      },
+      {
+          "id": "8491",
+          "image": "/meal8.png",
+          "title": "All Chicken Inasal Family Fiesta",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "870",
+          "OriginalPrice": "5800"
+      },
+      {
+          "id": "9214",
+          "image": "/meal9.png",
+          "title": "Pork BBQ & Grilled Liempo Family Fiesta",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "620",
+          "OriginalPrice": "3000"
+      },
+      {
+          "id": "1037",
+          "image": "/meal10.png",
+          "title": "Chicken Inasal & Grilled Liempo Buddy Fiesta",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "580",
+          "OriginalPrice": "3400"
+      },
+      {
+          "id": "1498",
+          "image": "/meal11.png",
+          "title": "All Chicken Inasal Buddy Fiesta",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "620",
+          "OriginalPrice": "3600"
+      },
+      {
+          "id": "1987",
+          "image": "/meal12.png",
+          "title": "Chicken Inasal & Pork BBQ Buddy Fiesta",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "780",
+          "OriginalPrice": "5200"
+      },
+      {
+          "id": "2458",
+          "image": "/meal13.png",
+          "title": "Pork BBQ & Grilled Liempo Buddy Fiesta",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "710",
+          "OriginalPrice": "4900"
+      },
+      {
+          "id": "3621",
+          "image": "/meal14.png",
+          "title": "Palabok Party Size",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "540",
+          "OriginalPrice": "2800"
+      },
+      {
+          "id": "4709",
+          "image": "/meal15.png",
+          "title": "Pork BBQ Family Size",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "650",
+          "OriginalPrice": "3200"
+      },
+      {
+          "id": "5123",
+          "image": "/meal16.png",
+          "title": "Pork Sisig Family Size",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "700",
+          "OriginalPrice": "3400"
+      },
+      {
+          "id": "6398",
+          "image": "/meal17.png",
+          "title": "Bangus Sisig Family Size",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "740",
+          "OriginalPrice": "3700"
+      },
+      {
+          "id": "7823",
+          "image": "/meal18.png",
+          "title": "Grilled Liempo Family Size",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "810",
+          "OriginalPrice": "3800"
+      },
+      {
+          "id": "8952",
+          "image": "/meal19.png",
+          "title": "Grilled Liempo Buddy Size",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "540",
+          "OriginalPrice": "2900"
+      },
+      {
+          "id": "9365",
+          "image": "/meal20.png",
+          "title": "Pork BBQ Buddy Size",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "620",
+          "OriginalPrice": "3000"
+      }
+  ],
+  "ChickenInasal": [
+      {
+          "id": "1050",
+          "image": "/chicken1.png",
+          "title": "Chicken Inasal & 1 pc Pork BBQ Solo Fiesta",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "290",
+          "OriginalPrice": "2200"
+      },
+      {
+          "id": "2157",
+          "image": "/chicken2.png",
+          "title": "Chicken Inasal Solo Fiesta",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "450",
+          "OriginalPrice": "2500"
+      },
+      {
+          "id": "3284",
+          "image": "/chicken3.png",
+          "title": "Paa Large - PM1",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "780",
+          "OriginalPrice": "3200"
+      },
+      {
+          "id": "4592",
+          "image": "/chicken4.png",
+          "title": "Pecho Large - PM2",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "860",
+          "OriginalPrice": "3400"
+      },
+      {
+          "id": "5724",
+          "image": "/chicken5.png",
+          "title": "Todo Solb Paa Large",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "710",
+          "OriginalPrice": "3300"
+      },
+      {
+          "id": "6145",
+          "image": "/chicken6.png",
+          "title": "Todo Solb Pecho Large",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "940",
+          "OriginalPrice": "3700"
+      },
+      {
+          "id": "7238",
+          "image": "/chicken7.png",
+          "title": "Chicken Inasal Regular",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "300",
+          "OriginalPrice": "2400"
+      },
+      {
+          "id": "8425",
+          "image": "/chicken8.png",
+          "title": "Fiesta Meal",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "620",
+          "OriginalPrice": "2800"
+      },
+      {
+          "id": "9502",
+          "image": "/chicken9.png",
+          "title": "Paa Large Family Size",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "850",
+          "OriginalPrice": "3500"
+      },
+      {
+          "id": "1056",
+          "image": "/chicken10.png",
+          "title": "Chicken Inasal Regular Family Size",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "950",
+          "OriginalPrice": "3800"
+      },
+      {
+          "id": "2110",
+          "image": "/chicken11.png",
+          "title": "Pecho Large Family Size",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+          "CurrentPrice": "1020",
+          "OriginalPrice": "4000"
+      }
+  ],
+  "Palabok": [
+    {
+        "id": "1036",
+        "image": "/palabok1.png",
+        "title": "Palabok",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "290",
+        "OriginalPrice": "2100"
+    },
+    {
+        "id": "2041",
+        "image": "/palabok2.png",
+        "title": "Palabok with Chicken Inasal Regular",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "350",
+        "OriginalPrice": "2300"
+    },
+    {
+        "id": "3124",
+        "image": "/palabok3.png",
+        "title": "Palabok with 1-pc Pork BBQ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "400",
+        "OriginalPrice": "2500"
+    },
+    {
+        "id": "4672",
+        "image": "/palabok4.png",
+        "title": "Palabok Party Size",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "450",
+        "OriginalPrice": "2700"
+    }
+  ],
+  "GrilledPork": [
+    {
+        "id": "1025",
+        "image": "/grilled1.png",
+        "title": "2 pc Pork BBQ Solo Fiesta",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "230",
+        "OriginalPrice": "2200"
+    },
+    {
+        "id": "2173",
+        "image": "/grilled2.png",
+        "title": "1 pc Pork BBQ with Peanut Sauce and Java Rice",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "290",
+        "OriginalPrice": "2400"
+    },
+    {
+        "id": "3290",
+        "image": "/grilled3.png",
+        "title": "2 pc Pork BBQ with Peanut Sauce and Java Rice",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "320",
+        "OriginalPrice": "2600"
+    },
+    {
+        "id": "4375",
+        "image": "/grilled4.png",
+        "title": "2 pc Pork BBQ with Spiced Vinegar",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "280",
+        "OriginalPrice": "2500"
+    },
+    {
+        "id": "5638",
+        "image": "/grilled5.png",
+        "title": "Pork BBQ Family Size",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "680",
+        "OriginalPrice": "3300"
+    },
+    {
+        "id": "6784",
+        "image": "/grilled6.png",
+        "title": "Pork BBQ Buddy Size",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "370",
+        "OriginalPrice": "2800"
+    },
+    {
+        "id": "7910",
+        "image": "/grilled7.png",
+        "title": "1 Pork BBQ Ala Carte",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "250",
+        "OriginalPrice": "2300"
+    },
+    {
+        "id": "8493",
+        "image": "/grilled8.png",
+        "title": "Grilled Liempo",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "510",
+        "OriginalPrice": "2900"
+    },
+    {
+        "id": "9256",
+        "image": "/grilled9.png",
+        "title": "Sizzling Liempo",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "480",
+        "OriginalPrice": "3000"
+    }
+  ],
+  "Sisig": [
+    {
+        "id": "1035",
+        "image": "/sisig1.png",
+        "title": "Pork Sisig",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "600",
+        "OriginalPrice": "3400"
+    },
+    {
+        "id": "2214",
+        "image": "/sisig2.png",
+        "title": "Bangus Sisig",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "670",
+        "OriginalPrice": "3600"
+    },
+    {
+        "id": "3320",
+        "image": "/sisig3.png",
+        "title": "Pork Sisig Family Size",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "720",
+        "OriginalPrice": "3700"
+    },
+    {
+        "id": "4692",
+        "image": "/sisig4.png",
+        "title": "Bangus Sisig Family Size",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "750",
+        "OriginalPrice": "3800"
+    }
+  ],
+  "Others": [
+    {
+        "id": "1102",
+        "image": "/halohalo1.png",
+        "title": "Extra Creamy Halo-Halo",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "350",
+        "OriginalPrice": "2100"
+    },
+    {
+        "id": "2215",
+        "image": "/halohalo2.png",
+        "title": "Crema de Leche Halo-Halo",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "430",
+        "OriginalPrice": "2400"
+    },
+    {
+        "id": "3304",
+        "image": "/empanada1.png",
+        "title": "Empanada",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "320",
+        "OriginalPrice": "2200"
+    },
+    {
+        "id": "4487",
+        "image": "/lumpia1.png",
+        "title": "Lumpiang Togue",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "CurrentPrice": "200",
+        "OriginalPrice": "2000"
+    }
+  ]
+}

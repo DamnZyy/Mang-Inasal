@@ -2,11 +2,6 @@
 import React from 'react'
 import Image from 'next/image';
 
-import Inasal1 from "@/images/slider/inasal1.png";
-import Inasal2 from "@/images/slider/inasal2.png";
-import Inasal3 from "@/images/slider/inasal3.png";
-import Inasal4 from "@/images/slider/inasal4.png";
-import Inasal5 from "@/images/slider/inasal5.png";
 import Inasal6 from "@/images/slider/inasal6.png";
 import Inasal7 from "@/images/slider/inasal7.png";
 import Inasal8 from "@/images/slider/inasal8.png";
@@ -48,7 +43,7 @@ export default function ImageSlider() {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
-  const ImageSliderv2 = [Inasal1, Inasal2,  Inasal3,  Inasal4,  Inasal5,  Inasal6,  Inasal7,  Inasal8, Inasal9, Inasal10, Inasal11, Inasal12, Inasal13];
+  const ImageSliderv2 = [Inasal6,  Inasal7,  Inasal8, Inasal9, Inasal10, Inasal11, Inasal12, Inasal13];
   const ImageSliderv1 = [Inasalv1, Inasalv2, Inasalv3, Inasalv4, Inasalv5, Inasalv6, Inasalv7, Inasalv8, Inasalv9, Inasalv10, Inasalv11, Inasalv12, Inasalv13];
 
     const [sliderRef] = useKeenSlider(

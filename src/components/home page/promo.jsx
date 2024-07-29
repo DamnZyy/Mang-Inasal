@@ -98,7 +98,7 @@ export default function CarouselDemo() {
 
         <div class="mt-8 h-auto">
           <div ref={sliderRef} class="keen-slider">
-            {Promos.map((promo, index) => <Expedition image={promo} index={index}></Expedition>)}
+            {Promos.map((promo, index) => <Expedition image={promo} key={index}></Expedition>)}
           </div>
         </div>
         
@@ -112,7 +112,7 @@ export function Expedition({image}) {
   return(
     <div class="keen-slider__slide rounded-xl w-10">
       <div class="flex h-full bg-primary justify-between bg-transparent shadow-sm">
-          <Image src={image} className="w-full" /> 
+          <Image src={image} alt="image" className="w-full" /> 
       </div>
     </div>
   )

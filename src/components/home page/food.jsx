@@ -51,14 +51,14 @@ export function FoodComponent({image, food}) {
         <div className='max-w-[300px] bg-white grid content-between h-full m-auto p-5 shadow-darks rounded-xl'>
             <div className=''>
                 <div className='flex items-center justify-center'>
-                    <Image src={image} width={260} height={160}></Image>
+                    <Image src={image} alt='image' width={260} height={160}></Image>
                 </div>
                 <p className='text-base font-semibold mt-6'>{food}</p>
                 <p className='text-sm text-gray-600'></p>
             </div>
 
             <div className='flex gap-1 mt-3'>
-                <button className="text-white bg-green-600 hover:bg-green-700 font-medium rounded-lg text-sm w-full py-2.5 text-center transition-colors">Order Now</button>
+                <Link href="/menu" className="text-white bg-green-600 hover:bg-green-700 font-medium rounded-lg text-sm w-full py-2.5 text-center transition-colors">Order Now</Link>
             </div>
         </div>
     </div>

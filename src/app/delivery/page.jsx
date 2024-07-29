@@ -1,7 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import Background1 from '@/images/Background/background-1.png'
-import Background2 from '@/images/Background/background-2.png'
 
 import Order from '@/components/delivery page/order'
 

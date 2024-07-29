@@ -11,7 +11,7 @@ export default function FoodItem({image, title, description, href}) {
     <div className=''>
         <div className='max-w-[300px] grid content-between h-full m-auto p-5 shadow-darks rounded-xl'>
             <div className='flex items-center justify-center'>
-                <Image src={image} width={260} height={160}></Image>
+                <Image src={image} alt='image' width={260} height={160}></Image>
             </div>
 
             <div>

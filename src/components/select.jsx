@@ -22,8 +22,8 @@ export default function SimpleSlider({ choices }) {
         {isOpen && (
         <div className="w-full border-[1px] bg-white transition-all absolute top-6 right-0 z-10 mt-4 origin-top-right rounded-md shadow-md p-1">
           {choices.map((choice, index) =>
-            <div>
-              <button type="button" onClick={onOptionClicked(choice)} className="flex items-center text-slate-900 justify-start gap-2 w-full rounded-sm py-1.5 text-sm hover:bg-slate-100" key={index}>
+            <div key={index}>
+              <button type="button" onClick={onOptionClicked(choice)} className="flex items-center text-slate-900 justify-start gap-2 w-full rounded-sm py-1.5 text-sm hover:bg-slate-100">
               <span className={`start-0 flex ps-2 items-center justify-center ${choice === Option ? 'opacity-100' : 'opacity-0'}`}><Check className="h-4 w-4" /></span>{choice}
               </button>
             </div>)}

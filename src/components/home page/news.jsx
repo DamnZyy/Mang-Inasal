@@ -113,7 +113,7 @@ export default function News() {
 export function NewsSlider({image, content, date}) {
   return (
     <div class="keen-slider__slide rounded-2xl border-2">
-            <Image src={image} className="w-full" /> 
+            <Image src={image} alt='image' className="w-full" /> 
             <div class="grid grid-col content-between justify-start h-full mt-4 mb-3 px-5">
                 <p class="tex-base font-bold">{content}</p>
                 <p class="mt-4 leading-relaxed text-sm text-gray-400">{date}</p>

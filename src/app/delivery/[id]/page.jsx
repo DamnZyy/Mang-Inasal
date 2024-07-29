@@ -1,7 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import Background1 from '@/images/Background/background-1.png'
-import Background2 from '@/images/Background/background-2.png'
 
 import Order from '@/components/delivery page/order'
 
@@ -30,9 +27,10 @@ export async function getOthers(id) {
     return res.json();
 }
 
-export function Dynams({params}) {
-    return params.id
-}
+export const metadata = {
+    title: 'Delivery',
+  }
+
 export default async function page({ params }) {
     const { id } = params;
     let groupMeals, chickeninasal, palabok, grilledpork, sisig, others;

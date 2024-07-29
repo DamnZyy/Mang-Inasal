@@ -88,9 +88,10 @@ export default function ImageSlider() {
       )
   return (
     <div ref={sliderRef} className="keen-slider max-w-[1500px] m-auto">
-      {isWideScreen ?  (ImageSliderv1.map((image, index) => <div className="keen-slider__slide" key={index}><Image src={image}/></div>))  : (ImageSliderv2.map((image, index) => <div className="keen-slider__slide" key={index}><Image src={image}/></div>))}
-{/*       {ImageSliderv1.map((image, index) => <div className="keen-slider__slide" key={index}><Image src={image}/></div>)}
-      {ImageSliderv2.map((image, index) => <div className="keen-slider__slide" key={index}><Image src={image}/></div>)} */}
+      {isWideScreen ?  
+      (ImageSliderv1.map((image, index) => <div className="keen-slider__slide" key={index}><Image src={image} alt='image'/></div>))
+        : 
+      (ImageSliderv2.map((image, index) => <div className="keen-slider__slide" key={index}><Image src={image} alt='image'/></div>))}
     </div>
   )
 }

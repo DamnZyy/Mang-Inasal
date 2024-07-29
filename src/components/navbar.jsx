@@ -16,7 +16,7 @@ export default function Navbar({logo}) {
 
                     <span className='font-semibold flex items-center'>
                         <FaBars className='text-xl almost:hidden' onClick={() => setShowNavbar(!showNavbar)} />
-                        <Image src={logo} className='absolute hidden almost:block' width={100} height={100}></Image>
+                        <Image src={logo} alt='logo' className='absolute hidden almost:block' width={100} height={100}></Image>
                     </span>
 
                     <ul className={`justify-center items-center gap-7 font-semibold ml-20 hidden almost:flex`}>

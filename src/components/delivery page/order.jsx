@@ -4,11 +4,7 @@ import Image from 'next/image'
 
 import { FaRegHeart, FaHeart } from "react-icons/fa6";
 
-import Meal1 from '@/images/meal1.png'
-import { Description } from '../footer';
-
-
-export default function page({image, title, description, price, oldPrice}) {
+export default function Page({image, title, description, price, oldPrice}) {
   const [count, setCount] = useState(1);
   const [disable, setDisable] = useState(true);
 
@@ -21,7 +17,7 @@ export default function page({image, title, description, price, oldPrice}) {
       <div className='max-w-[1240px] w-full m-auto flex-col almost:flex-row flex items-center justify-center'>
 
         <div className='min-w-[300px] sm:min-w-[400px] relative'>
-            <Image src={image} width={500} height={500} quality={100}></Image>
+            <Image src={image} alt='image' width={500} height={500} quality={100}></Image>
         </div>
 
         <div className='grid content-between p-5 max-w-[550px]'>

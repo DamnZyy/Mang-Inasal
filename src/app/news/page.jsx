@@ -26,7 +26,7 @@ export default function page() {
                 <p className="text-[#2d9751] mb-8 font-bold text-[30px] sm:text-[35px] md:text-[40px] tracking-tight">News</p>
                 <div class="keen-slider__slide rounded-xl">
                     <blockquote class="flex flex-col h-full justify-between rounded-2xl bg-white shadow-darks">
-                        <Image src={News1} className="w-full rounded-t-2xl" /> 
+                        <Image src={News1} alt='news' className="w-full rounded-t-2xl" /> 
                         <div class="grid grid-col content-between justify-start h-full mt-4 mb-3 px-5">
                             <p class="text-[20px] sm:text-2xl md:text-3xl font-bold">Maris and Anthony say ‘yes’ to Mang Inasal as Pork BBQ endorsers</p>
                             <p class="mt-2 leading-relaxed text-sm text-gray-400">Posted on 29 Jun 2024</p>
